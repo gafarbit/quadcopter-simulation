@@ -23,32 +23,29 @@ The following configurations are included in this project:
 
 ## Simulation Results
 
-The simulation results include comparisons between different input shaping configurations.
+The following figures compare the quadcopter response under different input shaping configurations.
 
 ### Combined Comparison
 
-The following figure compares the simulation responses for different configurations.
-
-![Input Shaping Comparison](results/ALL_0.75.jpg)
+![Input Shaping Comparison](ALL_0.75.jpg)
 
 ### Unshaped System
 
 Baseline response without input shaping.
 
-![Unshaped Response](results/Unshaped_0.75.jpg)
+![Unshaped Response](Unshaped_0.75.jpg)
 
 ### ZV Input Shaping
 
 Response using the Zero Vibration (ZV) input shaper.
 
-![ZV Response](results/ZV_0.75.jpg)
+![ZV Response](ZV_0.75.jpg)
 
 ### ZVD Input Shaping
 
 Response using the Zero Vibration and Derivative (ZVD) input shaper.
 
-![ZVD Response](results/ZVD_0.75.jpg)
-
+![ZVD Response](ZVD_0.75.jpg)
 ## Software
 
 - MATLAB
